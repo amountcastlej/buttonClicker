@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Dojonary</title>
+</head>
+<body>
+    <div class="container">
+        <!-- Navigation  -->
+        <div id="navbar">
+            <p id="title">Dojonary</p>
+            <input type="text" placeholder="Search" id="searchbar">
+            <button id="btn" onclick="show(this)">Login</button>
+        </div>
+        <div class="main">
+            <div class="content">
+                <div class="left">
+                    <div class="cards">
+                        <div class="info">
+                            <h1>Ninja</h1>
+                            <p class="noun">noun</p>
+                            <p class="plural">Plural: ninjas</p>
+                            <button class="button"  onclick="alert('Ninja was liked')">13 likes</button>
+                        </div>
+                        <div class="text">
+                            <p class="first">A practitioner skilled in the</p>
+                            <p class="first"><span class="blue">Japanese</span> art of <span class="blue">ninjutsu</span></p>
+                        </div>
+                    </div>
+                    <div class="cards">
+                        <div class="info">
+                            <h1>Ninja</h1>
+                            <p class="noun">noun</p>
+                            <p class="plural">Plural: ninjas</p>
+                            <button class="button">13 likes</button>
+                        </div>
+                        <div class="text">
+                            <p class="first">A <span class="blue">programmer</span> who breaks </p>
+                            <p class="first">down problems with <span class="blue">zen</span>-like focus</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="stuff">
+                        Dojonary is <p id="dojo">defined by <span>YOU</span></p>
+                        <button id="button2" onclick="removeButton()">Add Definition</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
